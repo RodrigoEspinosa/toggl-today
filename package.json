@@ -1,0 +1,34 @@
+{
+  "name": "toggl-today",
+  "version": "0.0.1",
+  "description": "Show entries from today on your terminal.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toggl",
+    "today"
+  ],
+  "author": "rec",
+  "license": "MIT",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "toggl-today": "./bin/toggl-today"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RodrigoEspinosa/toggl-today.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RodrigoEspinosa/toggl-today/issues"
+  },
+  "homepage": "https://github.com/RodrigoEspinosa/toggl-today",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "node-fetch": "^1.3.3"
+  }
+}
