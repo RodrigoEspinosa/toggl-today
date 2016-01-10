@@ -1,10 +1,10 @@
 {
   "name": "toggl-today",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Show entries from today on your terminal.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,7 +14,8 @@
   "author": "rec",
   "license": "MIT",
   "files": [
-    "bin"
+    "bin",
+    "lib"
   ],
   "bin": {
     "toggl-today": "./bin/toggl-today"
