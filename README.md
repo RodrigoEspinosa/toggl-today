@@ -9,6 +9,17 @@
 $ npm install -g toggl-today
 ```
 
+## Use
+
+```bash
+$ toggl-today
+```
+
+You need to setup a `TOGGL_TOKEN` environmental variable that can be
+`TOGGL_TOKEN=<username>:<password>` or `TOGGL_TOKEN=<api_token>:api_token`.
+
+_Or just `TOGGL_TOKEN=espinosacurbelo@gmail.com:ImNotTellingYouMyPassword toggl-today`._
+
 ----------
 
 ## License
