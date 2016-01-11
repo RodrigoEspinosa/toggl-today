@@ -1,6 +1,6 @@
 {
   "name": "toggl-today",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Show entries from today on your terminal.",
   "main": "index.js",
   "scripts": {

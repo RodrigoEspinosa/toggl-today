@@ -20,6 +20,12 @@ You need to setup a `TOGGL_TOKEN` environmental variable that can be
 
 _Or just `TOGGL_TOKEN=espinosacurbelo@gmail.com:ImNotTellingYouMyPassword toggl-today`._
 
+Also, you can specify a date.
+
+```bash
+$ toggl-today --date=2016-01-09
+```
+
 ----------
 
 ## License
