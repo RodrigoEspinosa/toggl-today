@@ -25,17 +25,15 @@ const getDates = () => {
   let today;
 
   if (PROGRAM_ARGS.date) {
-    today = new Date(PROGRAM_ARGS.date);
-
-    console.log(today);
+    today = new Date(PROGRAM_ARGS.date.replace('-', '/'));
   } else {
     today = new Date();
-  }
 
-  today.setHours(0);
-  today.setMinutes(0);
-  today.setSeconds(0);
-  today.setMilliseconds(0);
+    today.setHours(0);
+    today.setMinutes(0);
+    today.setSeconds(0);
+    today.setMilliseconds(0);
+  }
 
   let tomorrow = new Date(today);
   tomorrow.setDate(today.getDate() + 1);
