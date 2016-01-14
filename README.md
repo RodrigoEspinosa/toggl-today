@@ -1,5 +1,5 @@
 # toggl-today
-**Show entries from today on your terminal..**
+**Show entries from today on your terminal.**
 
 ![toggl-today-example-1](https://dl.dropboxusercontent.com/u/73676286/GitHub/toggl-today-example-1.png)
 
