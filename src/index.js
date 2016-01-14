@@ -43,7 +43,7 @@ const getDates = () => {
   let startDate = encodeURIComponent(today.toJSON());
   let endDate = encodeURIComponent(tomorrow.toJSON());
 
-  return {startDate: startDate, endDate: endDate};
+  return {startDate, endDate};
 };
 
 let {startDate, endDate} = getDates();
